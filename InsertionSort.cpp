@@ -55,3 +55,18 @@ void insertionSort()
     }
 }
 
+void display()
+{
+    cout << endl; // output baris kosong 
+    cout << "==================================" << endl; 
+    cout << "Total Passs = " << n - 1 << endl; // count element movement
+    cout << "==================================" << endl; // ouput ke layar
+    cout << "Element Array yang telah tersususn" << endl; // output ke layar
+    cout << "==================================" <<endl; // output ke layar
+
+    for (int j = 0; j < n; j++)
+    { // Looping dengan j dimulai dari 0 hinggan n-1
+        cout << arr[j] << endl; // output ke layar
+    }
+    cout << endl; // output baris kosong
+}
